@@ -138,7 +138,10 @@ footer {
   font-weight: 900;
   letter-spacing: 0.5px;
 }
-
+.logo {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
 .nav-links {
   display: flex;
   align-items: center;
